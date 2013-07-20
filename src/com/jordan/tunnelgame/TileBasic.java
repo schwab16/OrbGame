@@ -11,7 +11,7 @@ public class TileBasic extends Tile {
     }
 
     @Override
-    public void collision(Chaser chaser) {
+    public void collision(Chaser chaser, CollisionType type) {
         chaser.coord.x = 450;
         chaser.coord.y = 150;
         chaser.upwardVelocity = 3;
@@ -27,8 +27,4 @@ public class TileBasic extends Tile {
         return Assets.iBasicTile;
     }
 
-    @Override
-    public boolean checkForCollision(Chaser c) {
-        return true;
-    }
 }

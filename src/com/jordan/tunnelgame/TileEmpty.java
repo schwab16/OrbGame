@@ -12,7 +12,7 @@ public class TileEmpty extends Tile {
     }
 
     @Override
-    public void collision(Chaser chaser) {
+    public void collision(Chaser chaser, CollisionType type) {
 
     }
 
@@ -26,8 +26,4 @@ public class TileEmpty extends Tile {
         return Assets.iTile;
     }
 
-    @Override
-    public boolean checkForCollision(Chaser c) {
-        return false;
-    }
 }

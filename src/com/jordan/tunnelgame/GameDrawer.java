@@ -35,8 +35,8 @@ public class GameDrawer {
         for (Orb o: level.orbs)
         {
             Image i = Assets.iOrb;
-            int x = (int)o.coord.x;// - i.getWidth()/2;
-            int y = (int)o.coord.y;// - i.getHeight()/2;
+            int x = (int)o.coord.x - i.getWidth()/2;
+            int y = (int)o.coord.y - i.getHeight()/2;
             g.drawImage(i, x, y);
         }
 

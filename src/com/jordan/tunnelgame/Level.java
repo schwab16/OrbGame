@@ -42,7 +42,7 @@ public class Level {
                     chasers.add(new Chaser(new Coord(x*pix,y*pix),'a')); break;
 
                     case 'A': tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix));
-                        orbs.add(new Orb(new Coord(x*pix,y*pix),'a',true)); break;
+                        orbs.add(new Orb(new Coord(x*pix+C.blocksSize/2,y*pix+C.blocksSize/2),'a',true)); break;
                 }
             }
         }

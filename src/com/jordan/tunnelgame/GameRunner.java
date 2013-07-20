@@ -33,10 +33,11 @@ public class GameRunner {
     private static void chasersCollide(ArrayList<Chaser> chasers, Tile[][] tiles) {
         for (Chaser c: chasers)
             for (Tile t: Tile.getAdjacentTiles(tiles,c.coord))
-                if (t.checkForCollision(c))
-                    t.collision(c);
-
-
+            {
+                Tile.CollisionType type = t.checkForCollision(c);
+                if (type != Tile.CollisionType.NONE)
+                    t.collision(c,type);
+            }
     }
 
     private static void chasersFallDown(ArrayList<Chaser> chasers)
