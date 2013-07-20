@@ -12,6 +12,7 @@ public class C {
     public static int xBlocks = 16;
     public static int yBlocks = 10;
     public static int blocksSize = 80;
+    public static int blockBuffer = 4;
 
     //return codes for gamestate
     public static int running = 17, fail = 49, finished = 53;

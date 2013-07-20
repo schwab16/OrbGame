@@ -39,6 +39,14 @@ public abstract class Tile {
 
     public CollisionType checkForCollision(Chaser chaser)
     {
+        int cx = (int) chaser.coord.x;
+        int cy = (int) chaser.coord.y;
+        int tx = (int) coord.x;
+        int ty = (int) coord.y;
+        int s = C.blocksSize;
+        int b = C.blockBuffer;
+
+        boolean above=cy<ty-s&&cy>ty-s+b, even=cy>ty-s&&cy<ty+s, below=cy>ty+s;
         return CollisionType.NONE;
     }
 

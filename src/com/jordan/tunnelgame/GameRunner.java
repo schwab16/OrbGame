@@ -24,7 +24,7 @@ public class GameRunner {
 
         chasersFallDown(level.chasers);
 
-        chasersCollide(level.chasers, level.tiles);
+        //chasersCollide(level.chasers, level.tiles);
 
         return C.running;
 
