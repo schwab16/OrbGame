@@ -35,5 +35,6 @@ public abstract class Tile {
 
     public abstract void collision(Chaser chaser);
     public abstract void update();
-    public abstract Image getImage();
+    public abstract Image getImage(Level level);
+    public abstract boolean checkForCollision(Chaser c);
 }

@@ -22,7 +22,7 @@ public class C {
     //movement speed of chasers, buffer of orbs/chasers
     public static int movement = 1, buffer = 25;
     //chaser gravity
-    public static double chaserGravity = 0.1;
+    public static double chaserGravity = -0.1;
 
 
     //how far the chaser looks away for collisions

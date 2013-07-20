@@ -22,7 +22,12 @@ public class TileEmpty extends Tile {
     }
 
     @Override
-    public Image getImage() {
+    public Image getImage(Level level) {
         return Assets.iTile;
+    }
+
+    @Override
+    public boolean checkForCollision(Chaser c) {
+        return false;
     }
 }
