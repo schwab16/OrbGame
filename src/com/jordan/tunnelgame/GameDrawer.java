@@ -27,16 +27,16 @@ public class GameDrawer {
         for (Chaser c: level.chasers)
         {
             Image i = Assets.iChaser;
-            int x = (int)c.coord.x - i.getWidth()/2;
-            int y = (int)c.coord.y - i.getHeight()/2;
+            int x = (int)c.coord.x;// - i.getWidth()/2;
+            int y = (int)c.coord.y;// - i.getHeight()/2;
             g.drawImage(i, x, y);
         }
 
         for (Orb o: level.orbs)
         {
             Image i = Assets.iOrb;
-            int x = (int)o.coord.x - i.getWidth()/2;
-            int y = (int)o.coord.y - i.getHeight()/2;
+            int x = (int)o.coord.x;// - i.getWidth()/2;
+            int y = (int)o.coord.y;// - i.getHeight()/2;
             g.drawImage(i, x, y);
         }
 

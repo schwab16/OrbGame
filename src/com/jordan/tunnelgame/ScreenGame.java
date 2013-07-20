@@ -57,7 +57,7 @@ public class ScreenGame extends Screen {
 
         for (TouchEvent event: touchEvents)
         {
-            if (event.x > 1280 - C.pauseArea && event.y < C.pauseArea && event.type == TouchEvent.TOUCH_DOWN)
+            if (event.x > 1280 - C.pauseArea && event.y < C.pauseArea && event.type == TouchEvent.TOUCH_UP)
             {
                 pause();
                 return;
@@ -103,8 +103,8 @@ public class ScreenGame extends Screen {
 
 
 	private void updatePaused(List<TouchEvent> touchEvents) {
-		if (touchEvents.size() > 0 && touchEvents.get(0).type == TouchEvent.TOUCH_UP)
-				resume();
+		if (touchEvents.size() > 0 && touchEvents.get(0).type == TouchEvent.TOUCH_DOWN)
+		    resume();
 	}
     private void drawPausedUI() {
         Graphics g = game.getGraphics();

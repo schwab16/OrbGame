@@ -12,8 +12,8 @@ public class TileBasic extends Tile {
 
     @Override
     public void collision(Chaser chaser) {
-        chaser.coord.x = 50;
-        chaser.coord.y = 50;
+        chaser.coord.x = 450;
+        chaser.coord.y = 150;
         chaser.upwardVelocity = 3;
     }
 
