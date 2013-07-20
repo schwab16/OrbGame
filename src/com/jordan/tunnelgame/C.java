@@ -9,9 +9,9 @@ public class C {
     public static float maxDeltaTime = 3.15f;
 
     //size of tiles array
-    public static int xBlocks = 32;
-    public static int yBlocks = 20;
-    public static int blocksSize = 40;
+    public static int xBlocks = 16;
+    public static int yBlocks = 10;
+    public static int blocksSize = 80;
 
     //return codes for gamestate
     public static int running = 17, fail = 49, finished = 53;
