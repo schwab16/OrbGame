@@ -27,8 +27,8 @@ public abstract class Tile {
         for (int offX = -adjArea; offX < adjArea+1; offX++)
             for (int offY = -adjArea; offY < adjArea+1; offY++)
                 if (offX >= 0 && offY >= 0 && offX < C.xBlocks && offY < C.yBlocks)
-                    if (!(tiles[x][y] instanceof TileEmpty))
-                        a.add(tiles[x][y]);
+                    if (!(tiles[x+offX][y+offY] instanceof TileEmpty))
+                        a.add(tiles[x+offX][y+offY]);
 
         return a;
     }
