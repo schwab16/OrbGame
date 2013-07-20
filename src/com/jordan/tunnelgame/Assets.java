@@ -103,18 +103,10 @@ public class Assets {
     0: test
      */
 
-     /*first ignored, delimited by #
-    levelpack free, level 1 #
-    //TUNNEL: x y targetid $(first is 0)
-    100 200 1$
-    200 200 0
-    #
-    //CHASER: x y colorid (roygbv 0,5)
-    100 100 0$
-    #
-    //ORB: x y colorid
-    400 100 0
-    #
-    //PLATFORM: x1 x2 y
-    100 100 200*/
+    /*
+    ' ' : empty space
+    '+' : basic platform
+    'a' : default chaser
+    'A' : default orb
+     */
 }

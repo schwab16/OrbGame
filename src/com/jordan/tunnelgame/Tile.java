@@ -18,8 +18,19 @@ public abstract class Tile {
 
     public static ArrayList<Tile> getAdjacentTiles(Tile[][] tiles, Coord c)
     {
-        //TODO: get adjacent tiles
-        return null;
+        ArrayList<Tile> a = new ArrayList<Tile>();
+        int x = (int)c.x/C.blocksSize;
+        int y = (int)c.y/C.blocksSize;
+
+        int adjArea = C.adjacentArea;
+
+        for (int offX = -adjArea; offX < adjArea+1; offX++)
+            for (int offY = -adjArea; offY < adjArea+1; offY++)
+                if (offX >= 0 && offY >= 0 && offX < C.xBlocks && offY < C.yBlocks)
+                    if (!(tiles[x][y] instanceof TileEmpty))
+                        a.add(tiles[x][y]);
+
+        return a;
     }
 
     public abstract void collision(Chaser chaser);

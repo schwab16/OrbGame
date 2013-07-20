@@ -11,8 +11,12 @@ import com.jordan.framework.Input.TouchEvent;
  */
 public class GameRunner {
 
+    public static String message = "";
+
     public static int update(List<TouchEvent> touchEvents, float deltaTime, Level level)
     {
+        message = "";
+
         if (touchEvents.size() > 0)
             orbsByTouch(touchEvents,level.orbs);
 
@@ -20,8 +24,20 @@ public class GameRunner {
 
         chasersFallDown(level.chasers);
 
+        chasersCollide(level.chasers, level.tiles);
+
         return C.running;
 
+    }
+
+    private static void chasersCollide(ArrayList<Chaser> chasers, Tile[][] tiles) {
+        for (Chaser c: chasers)
+        {
+            for (Tile t: Tile.getAdjacentTiles(tiles,c.coord))
+            {
+
+            }
+        }
     }
 
     private static void chasersFallDown(ArrayList<Chaser> chasers)

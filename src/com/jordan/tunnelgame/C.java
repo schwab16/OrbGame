@@ -25,5 +25,7 @@ public class C {
     public static double chaserGravity = 0.1;
 
 
+    //how far the chaser looks away for collisions
+    public static int adjacentArea = 2;
 
 }

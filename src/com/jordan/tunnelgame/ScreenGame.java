@@ -79,7 +79,7 @@ public class ScreenGame extends Screen {
         Graphics g = game.getGraphics();
         GameDrawer.draw(g,level);
         if (C.cheats)
-            g.drawString(lastDeltaTime + "", 240,30, paint);
+            g.drawString(lastDeltaTime + " " + GameRunner.message, 240,30, paint);
     }
 
 
