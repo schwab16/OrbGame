@@ -6,7 +6,7 @@ public class C {
     public static float maxDeltaTime = 3.15f;
 
     //size of tiles array
-    public static int xBlocks = 17;
+    public static int xBlocks = 16;
     public static int yBlocks = 10;
     public static int blocksSize = 80;
     public static double blockInsideRatio = .5;

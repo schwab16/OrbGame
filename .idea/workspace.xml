@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java" afterPath="$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java" afterPath="$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java" afterPath="$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java" afterPath="$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RobotGameCopy1.iws" />
@@ -110,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidGame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="51" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ScreenGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/ScreenGame.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,7 +120,7 @@
       <file leaf-file-name="Assets.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="486" selection-end="486" vertical-scroll-proportion="0.27113238" vertical-offset="34" max-vertical-offset="2108">
+            <state line="60" column="32" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.6236045" vertical-offset="595" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -202,15 +191,15 @@
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileWarp.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" />
-        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java" />
+        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="596" />
-    <option name="y" value="36" />
+    <option name="x" value="625" />
+    <option name="y" value="26" />
     <option name="width" value="1234" />
     <option name="height" value="965" />
   </component>
@@ -594,11 +583,15 @@
       <created>1374426301195</created>
       <updated>1374426301195</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="17x10">
+      <created>1374426853305</created>
+      <updated>1374426853305</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="596" y="36" width="1234" height="965" extended-state="0" />
+    <frame x="625" y="26" width="1234" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -669,7 +662,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="WARPS! final" />
+    <option name="LAST_COMMIT_MESSAGE" value="17x10" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -698,6 +691,7 @@
     <MESSAGE value="WARPS!" />
     <MESSAGE value="WARPS! v2" />
     <MESSAGE value="WARPS! final" />
+    <MESSAGE value="17x10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -792,6 +786,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="48" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.46092504" vertical-offset="102" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="34" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -799,16 +800,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="51" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="486" selection-end="486" vertical-scroll-proportion="0.27113238" vertical-offset="34" max-vertical-offset="2108">
+        <state line="60" column="32" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.6236045" vertical-offset="595" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
