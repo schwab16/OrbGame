@@ -2,8 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b212e8-d19b-4fe8-8a11-4a18ddaf91b3" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\OrbGame\New folder.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\OrbGame\New folder.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\OrbGame\.classpath" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\OrbGame\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Owner\Desktop\OrbGame\res\raw\map1.txt" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\gen\com\jordan\tunnelgame\BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/jerhis/orbgame/BuildConfig.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\gen\com\jordan\tunnelgame\Manifest.java" afterPath="$PROJECT_DIR$/gen/com/jerhis/orbgame/Manifest.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\gen\com\jordan\tunnelgame\R.java" afterPath="$PROJECT_DIR$/gen/com/jerhis/orbgame/R.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Audio.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Audio.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\FileIO.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/FileIO.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Game.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Game.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Graphics.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Graphics.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Image.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Image.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Input.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Input.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Music.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Music.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Pool.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Pool.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Screen.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Screen.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\Sound.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/Sound.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidAudio.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidAudio.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidFastRenderView.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidFastRenderView.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidFileIO.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidFileIO.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidGame.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidGame.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidGraphics.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidGraphics.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidImage.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidImage.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidInput.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidInput.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidMusic.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidMusic.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\AndroidSound.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/AndroidSound.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\MultiTouchHandler.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/MultiTouchHandler.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\SingleTouchHandler.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/SingleTouchHandler.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\framework\implementation\TouchHandler.java" afterPath="$PROJECT_DIR$/src/com/jerhis/framework/implementation/TouchHandler.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Animation.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Animation.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Assets.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Assets.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\C.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/C.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Chaser.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Chaser.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Coord.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Coord.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\GameDrawer.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/GameDrawer.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/GameRunner.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Level.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Level.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\LevelPack.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/LevelPack.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Orb.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Orb.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\ScreenGame.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenGame.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\ScreenLevelSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenLevelSelect.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\ScreenLoading.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenLoading.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\ScreenPackSelect.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenPackSelect.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\ScreenSplashLoading.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenSplashLoading.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\StartGame.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/StartGame.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\Tile.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/Tile.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\TileBasic.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/TileBasic.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\TileDeath.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/TileDeath.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\TileEmpty.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/TileEmpty.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\TileFinish.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/TileFinish.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\TileIce.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/TileIce.java" />
+      <change type="MOVED" beforePath="C:\Users\Owner\Desktop\OrbGame\src\com\jordan\tunnelgame\TileWarp.java" afterPath="$PROJECT_DIR$/src/com/jerhis/orbgame/TileWarp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RobotGameCopy1.iws" />
@@ -71,47 +122,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Level.java">
+      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="63" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.6060606" vertical-offset="323" max-vertical-offset="1241">
+            <state line="54" column="0" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1224">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TileFinish.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/TileFinish.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/TileFinish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chaser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="816">
+            <state line="22" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="C.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="595">
+            <state line="11" column="47" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ScreenGame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/ScreenGame.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="13" selection-start="3658" selection-end="3658" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3706">
+            <state line="137" column="13" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3706">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="34" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proguard-project.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proguard-project.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="389">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelPack.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/LevelPack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+              <folding>
+                <element signature="e#134#141#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,8 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/LevelPack.java" />
-        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileBasic.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileEmpty.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileDeath.java" />
@@ -148,21 +244,23 @@
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileWarp.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java" />
-        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Level.java" />
         <option value="$PROJECT_DIR$/gen/com/jordan/tunnelgame/TileFinish.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileFinish.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/ScreenGame.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java" />
+        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Level.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="27" />
-    <option name="width" value="1234" />
-    <option name="height" value="938" />
+    <option name="x" value="693" />
+    <option name="y" value="86" />
+    <option name="width" value="1221" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,6 +320,32 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerhis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orbgame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TunnelGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrbGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jerhis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -237,7 +361,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="ExportedModule" value="New folder" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tiles/stonetile.png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyApplicationProject" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
@@ -487,12 +611,16 @@
       <created>1374429356206</created>
       <updated>1374429356206</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="apk">
+      <created>1374432010654</created>
+      <updated>1374432010654</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="27" width="1234" height="938" extended-state="0" />
-    <editor active="true" />
+    <frame x="693" y="86" width="1221" height="928" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -503,15 +631,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17505996" sideWeight="0.31932774" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17505996" sideWeight="0.31932774" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277202" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23704663" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4527559" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23341836" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1948718" sideWeight="0.76295334" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.71761656" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19706136" sideWeight="0.5472441" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25510204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -562,7 +690,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="first level" />
+    <option name="LAST_COMMIT_MESSAGE" value="pruning" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -594,104 +722,121 @@
     <MESSAGE value="17x10" />
     <MESSAGE value="finish blocks" />
     <MESSAGE value="first level" />
+    <MESSAGE value="apk" />
+    <MESSAGE value="pruning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="37" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/icon.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/TileWarp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="49" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="37" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/TileFinish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/framework/implementation/AndroidGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="25" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.6363636" vertical-offset="255" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/warp.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/Assets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="28" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.68248177" vertical-offset="561" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/ScreenGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/ScreenGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="13" selection-start="3658" selection-end="3658" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3706">
+        <state line="137" column="13" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3706">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Level.java">
+    <entry file="file://$PROJECT_DIR$/gen/com/jerhis/orbgame/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="63" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.6060606" vertical-offset="323" max-vertical-offset="1241">
+        <state line="5" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/jerhis/orbgame/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/jerhis/orbgame/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/jarlist.cache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jerhis/orbgame/LevelPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding>
+            <element signature="e#134#141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="34" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
           <folding />
         </state>
       </provider>
