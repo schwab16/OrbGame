@@ -5,9 +5,6 @@ import com.jordan.framework.Graphics;
 import com.jordan.framework.Input.TouchEvent;
 import com.jordan.framework.Screen;
 
-/**
- * Created by Owner on 7/3/13.
- */
 public class ScreenLevelSelect extends Screen {
 
     public int packID;

@@ -2,12 +2,9 @@ package com.jordan.tunnelgame;
 
 import com.jordan.framework.Image;
 
-/**
- * Created by Owner on 7/19/13.
- */
-public class TileMid extends Tile {
-    public TileMid(Coord coord) {
-        super(coord);
+public class TileDeath extends Tile {
+    public TileDeath(Coord coord, char id) {
+        super(coord, id);
     }
 
     @Override
@@ -34,8 +31,13 @@ public class TileMid extends Tile {
     }
 
     @Override
+    public void onTouch() {
+
+    }
+
+    @Override
     public Image getImage(Level level) {
-        return Assets.iMidTile;
+        return Assets.iFireTile;
     }
 
 }

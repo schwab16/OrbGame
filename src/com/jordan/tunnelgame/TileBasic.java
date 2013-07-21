@@ -2,12 +2,9 @@ package com.jordan.tunnelgame;
 
 import com.jordan.framework.Image;
 
-/**
- * Created by Owner on 7/19/13.
- */
 public class TileBasic extends Tile {
-    public TileBasic(Coord coord) {
-        super(coord);
+    public TileBasic(Coord coord, char id) {
+        super(coord, id);
     }
 
     @Override
@@ -34,7 +31,20 @@ public class TileBasic extends Tile {
     }
 
     @Override
+    public void onTouch() {
+
+    }
+
+    @Override
     public Image getImage(Level level) {
+        switch(id)
+        {
+            case '+': return Assets.iBasicTile;
+            case '-': return Assets.iRockTile;
+            case '/': return Assets.iStoneTile;
+            case '&': return Assets.iMetalTile;
+            case '^': return Assets.iSnowTile;
+        }
         return Assets.iBasicTile;
     }
 

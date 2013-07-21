@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import com.jordan.framework.Input.TouchEvent;
 
-/**
- * Created by Owner on 7/6/13.
- */
 public class GameRunner {
 
     public static String message = "";

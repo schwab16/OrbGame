@@ -2,9 +2,6 @@ package com.jordan.tunnelgame;
 
 import com.jordan.framework.Image;
 
-/**
- * Created by Owner on 7/3/13.
- */
 public class Orb {
 
     public Coord coord;

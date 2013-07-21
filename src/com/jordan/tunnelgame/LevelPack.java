@@ -2,9 +2,6 @@ package com.jordan.tunnelgame;
 
 import java.util.ArrayList;
 
-/**
- * Created by Owner on 7/3/13.
- */
 public class LevelPack {
 
     public ArrayList<Level> levels = new ArrayList<Level>();

@@ -1,8 +1,5 @@
 package com.jordan.tunnelgame;
 
-/**
- * Created by Owner on 7/6/13.
- */
 public class C {
 
     public static boolean cheats = true;

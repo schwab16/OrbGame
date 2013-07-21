@@ -2,12 +2,9 @@ package com.jordan.tunnelgame;
 
 import com.jordan.framework.Image;
 
-/**
- * Created by Owner on 7/19/13.
- */
 public class TileIce extends Tile {
-    public TileIce(Coord coord) {
-        super(coord);
+    public TileIce(Coord coord, char id) {
+        super(coord, id);
     }
 
     @Override
@@ -30,6 +27,11 @@ public class TileIce extends Tile {
 
     @Override
     public void update() {
+
+    }
+
+    @Override
+    public void onTouch() {
 
     }
 

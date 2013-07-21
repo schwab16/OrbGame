@@ -4,20 +4,19 @@ import com.jordan.framework.Image;
 
 import java.util.ArrayList;
 
-/**
- * Created by Owner on 7/19/13.
- */
 public abstract class Tile {
 
     public Coord coord;
+    public char id;
 
-    public Tile(Coord coord)
+    public Tile(Coord coord, char id)
     {
         this.coord = coord;
     }
 
     public abstract void collision(Chaser chaser, CollisionType type);
     public abstract void update();
+    public abstract void onTouch();
     public abstract Image getImage(Level level);
 
     public void basicTopCollision(Chaser chaser)
@@ -25,7 +24,6 @@ public abstract class Tile {
         if (chaser.upwardVelocity < 0)
             chaser.upwardVelocity = 0;
         chaser.coord.y = coord.y - C.blocksSize + 1;
-
     }
 
     public void basicLeftCollision(Chaser chaser)

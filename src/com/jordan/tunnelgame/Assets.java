@@ -1,24 +1,14 @@
 package com.jordan.tunnelgame;
 
-import android.content.res.AssetFileDescriptor;
-import android.util.Log;
-
 import com.jordan.framework.Graphics;
 import com.jordan.framework.Graphics.ImageFormat;
 import com.jordan.framework.Image;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class Assets {
 
     public static Image splash;
 	public static Image packselect, levelselect, background;// character, character2, character3, heliboy, heliboy2, heliboy3, heliboy4, heliboy5;
-	public static Image iChaser, iOrb, iTile, iBasicTile, iMidTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile;
+	public static Image iChaser, iOrb, iTile, iBasicTile, iRockTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile;
 
     public static String[] packNames = {"test"};
     public static String[][] levelStrings;
@@ -41,7 +31,7 @@ public class Assets {
         iOrb = g.newImage("orb.png", ImageFormat.RGB565);
         iTile = g.newImage("emptytile.png", ImageFormat.RGB565);
         iBasicTile = g.newImage("basictile.png", ImageFormat.RGB565);
-        iMidTile = g.newImage("midtile.png", ImageFormat.RGB565);
+        iRockTile = g.newImage("midtile.png", ImageFormat.RGB565);
         iStoneTile = g.newImage("stonetile.png", ImageFormat.RGB565);
         iFireTile = g.newImage("firetile.png", ImageFormat.RGB565);
         iIceTile = g.newImage("icetile.png", ImageFormat.RGB565);
@@ -97,11 +87,21 @@ public class Assets {
 
     /*pack ids:
     0: test
-     */
 
-    /*
+    TILE CHAR IDS
     ' ' : empty space
-    '+' : basic platform
+
+    '+' : basic tile
+    '-' : rock tile
+    '/' : stone tile
+    '^' : snow tile
+    '&' : metal tile
+
+    '*' : fire tile
+
+    '_' : ice tile
+
+    CHASER/ORB IDS 'a-j' 'A-J'
     'a' : default chaser
     'A' : default orb
      */

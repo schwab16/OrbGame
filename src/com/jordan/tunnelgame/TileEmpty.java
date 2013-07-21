@@ -2,13 +2,10 @@ package com.jordan.tunnelgame;
 
 import com.jordan.framework.Image;
 
-/**
- * Created by Owner on 7/19/13.
- */
 public class TileEmpty extends Tile {
 
-    public TileEmpty(Coord coord) {
-        super(coord);
+    public TileEmpty(Coord coord, char id) {
+        super(coord, id);
     }
 
     @Override
@@ -18,6 +15,11 @@ public class TileEmpty extends Tile {
 
     @Override
     public void update() {
+
+    }
+
+    @Override
+    public void onTouch() {
 
     }
 

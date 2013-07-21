@@ -1,8 +1,5 @@
 package com.jordan.tunnelgame;
 
-/**
- * Created by Owner on 6/29/13.
- */
 public class Coord {
 
     public double x, y;

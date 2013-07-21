@@ -4,9 +4,6 @@ import com.jordan.framework.Image;
 
 import java.util.ArrayList;
 
-/**
- * Created by Owner on 7/3/13.
- */
 public class Chaser {
 
     public Coord coord;
