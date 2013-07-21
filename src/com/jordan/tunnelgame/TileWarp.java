@@ -8,6 +8,7 @@ public class TileWarp extends Tile {
 
     public static ArrayList<TileWarp> otherWarps;
     public int targetID;
+    public boolean readyToWarp = true;
 
     public TileWarp(Coord coord, char id, char targetID) {
         super(coord, id);
@@ -16,10 +17,15 @@ public class TileWarp extends Tile {
 
     @Override
     public void collision(Chaser chaser, CollisionType type) {
-        if (type == CollisionType.IN)
+        if (type == CollisionType.IN && readyToWarp)
         {
             chaser.coord.x = otherWarps.get(targetID).coord.x;
             chaser.coord.y = otherWarps.get(targetID).coord.y;
+            otherWarps.get(targetID).readyToWarp = false;
+        }
+        else if (type != CollisionType.NONE && type != CollisionType.IN)
+        {
+            readyToWarp = true;
         }
     }
 
