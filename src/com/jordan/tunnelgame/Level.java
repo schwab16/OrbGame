@@ -37,6 +37,12 @@ public class Level {
                 {
                     case ' ': tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix)); break;
                     case '+': tiles[x][y] = new TileBasic(new Coord(x*pix,y*pix)); break;
+                    case '-': tiles[x][y] = new TileMid(new Coord(x*pix,y*pix)); break;
+                    case '/': tiles[x][y] = new TileStone(new Coord(x*pix,y*pix)); break;
+                    case '*': tiles[x][y] = new TileFire(new Coord(x*pix,y*pix)); break;
+                    case '_': tiles[x][y] = new TileIce(new Coord(x*pix,y*pix)); break;
+                    case '&': tiles[x][y] = new TileMetal(new Coord(x*pix,y*pix)); break;
+                    case '^': tiles[x][y] = new TileSnow(new Coord(x*pix,y*pix)); break;
 
                     case 'a': tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix));
                     chasers.add(new Chaser(new Coord(x*pix,y*pix),'a')); break;

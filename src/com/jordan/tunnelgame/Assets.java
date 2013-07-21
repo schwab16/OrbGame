@@ -18,7 +18,7 @@ public class Assets {
 
     public static Image splash;
 	public static Image packselect, levelselect, background;// character, character2, character3, heliboy, heliboy2, heliboy3, heliboy4, heliboy5;
-	public static Image iChaser, iOrb, iTile, iBasicTile;
+	public static Image iChaser, iOrb, iTile, iBasicTile, iMidTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile;
 
     public static String[] packNames = {"test"};
     public static String[][] levelStrings;
@@ -41,6 +41,12 @@ public class Assets {
         iOrb = g.newImage("orb.png", ImageFormat.RGB565);
         iTile = g.newImage("emptytile.png", ImageFormat.RGB565);
         iBasicTile = g.newImage("basictile.png", ImageFormat.RGB565);
+        iMidTile = g.newImage("midtile.png", ImageFormat.RGB565);
+        iStoneTile = g.newImage("stonetile.png", ImageFormat.RGB565);
+        iFireTile = g.newImage("firetile.png", ImageFormat.RGB565);
+        iIceTile = g.newImage("icetile.png", ImageFormat.RGB565);
+        iMetalTile = g.newImage("metaltile.png", ImageFormat.RGB565);
+        iSnowTile = g.newImage("snowtile.png", ImageFormat.RGB565);
 
     }
 
@@ -58,13 +64,13 @@ public class Assets {
                         "                " +
                         "                " +
                         "      A         " +
+                        "          *     " +
+                        "      -  /+__&  " +
                         "                " +
-                        "      +  ++     " +
-                        "                " +
-                        "                " +
-                        "        a       " +
-                        "  +          + +" +
-                        "++++++++++++++++";
+                        " &              " +
+                        "///     a       " +
+                        "/_-&^        *-^" +
+                        "+++++^+++__*-+++";
             case 2:
                 return " ";
             case 3:

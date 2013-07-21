@@ -13,7 +13,9 @@
 
     <application
         android:icon="@drawable/icon"
-        android:label="TunnelGame" >
+        android:label="TunnelGame"
+        android:debuggable="true">
+
         <activity
             android:name=".StartGame"
             android:configChanges="keyboard|keyboardHidden|orientation"
