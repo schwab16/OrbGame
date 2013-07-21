@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b212e8-d19b-4fe8-8a11-4a18ddaf91b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/orb.png" afterPath="$PROJECT_DIR$/assets/orb.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RobotGameCopy1.iws" />
@@ -24,7 +23,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,6 +59,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,7 +72,7 @@
       <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="57" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2074">
+            <state line="12" column="57" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1935">
               <folding />
             </state>
           </provider>
@@ -82,7 +81,7 @@
       <file leaf-file-name="Chaser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Chaser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="697">
+            <state line="37" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -91,7 +90,7 @@
       <file leaf-file-name="StartGame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/StartGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="40" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1768">
+            <state line="45" column="40" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -100,7 +99,7 @@
       <file leaf-file-name="Tile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="37" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1785">
+            <state line="30" column="37" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -109,7 +108,7 @@
       <file leaf-file-name="Animation.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Animation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15814696" vertical-offset="139" max-vertical-offset="1224">
+            <state line="16" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.025374856" vertical-offset="188" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -118,7 +117,7 @@
       <file leaf-file-name="C.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="68" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+            <state line="26" column="68" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -127,7 +126,7 @@
       <file leaf-file-name="TileEmpty.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/TileEmpty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="13" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -136,7 +135,7 @@
       <file leaf-file-name="TileBasic.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/TileBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="799">
+            <state line="36" column="40" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -145,16 +144,7 @@
       <file leaf-file-name="GameDrawer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameDrawer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="13" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2142">
+            <state line="7" column="13" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -203,10 +193,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="140" />
-    <option name="width" value="1234" />
-    <option name="height" value="965" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -234,7 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,7 +237,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OrbGame" />
+              <option name="myItemId" value="TunnelGame1Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,29 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OrbGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jordan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tunnelgame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TunnelGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrbGame" />
+              <option name="myItemId" value="TunnelGame1Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OrbGame" />
+              <option name="myItemId" value="TunnelGame1Project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -310,6 +276,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,11 +293,11 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -534,8 +501,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="140" width="1234" height="965" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="1015" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -546,19 +513,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17505996" sideWeight="0.31932774" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17505996" sideWeight="0.31932774" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839507" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2503129" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1957265" sideWeight="0.81852317" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18147685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19530416" sideWeight="0.81852317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18060201" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839507" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -696,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2142">
+        <state line="45" column="13" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
@@ -724,14 +691,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1785">
+        <state line="30" column="37" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/metaltile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15814696" vertical-offset="139" max-vertical-offset="1224">
+        <state line="16" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.025374856" vertical-offset="188" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
