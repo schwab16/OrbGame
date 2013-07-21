@@ -15,6 +15,8 @@ public class Chaser {
     public double resistance = C.chaserResistance;
     public double maxVelocity = C.maxVelocity;
     public boolean readyToWarp[] = new boolean[10];
+    public boolean finished = false;
+    public boolean dead = false;
 
     public Chaser(Coord start, char color)
     {
