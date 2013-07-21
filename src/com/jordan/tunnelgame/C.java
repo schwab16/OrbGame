@@ -12,7 +12,7 @@ public class C {
     public static int xBlocks = 16;
     public static int yBlocks = 10;
     public static int blocksSize = 80;
-    public static int blockBuffer = 4;
+    public static double blockInsideRatio = .5;
 
     //return codes for gamestate
     public static int running = 17, fail = 49, finished = 53;
@@ -21,12 +21,15 @@ public class C {
     public static int pauseArea = 40;
 
     //movement speed of chasers, buffer of orbs/chasers
-    public static int movement = 1, buffer = 25;
+    public static int buffer = 25;
     //chaser gravity
     public static double chaserGravity = -0.1;
+    public static double chaserMomentum = 1, chaserResistance = .75;
+    public static double maxVelocity = 5;
 
 
     //how far the chaser looks away for collisions
     public static int adjacentArea = 2;
+
 
 }

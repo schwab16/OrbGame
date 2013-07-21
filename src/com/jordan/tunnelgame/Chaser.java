@@ -13,6 +13,10 @@ public class Chaser {
     public final char color;
     public double upwardVelocity = 0;
     public double gravity = C.chaserGravity;
+    public double sideVelocity = 0;
+    public double momentum = C.chaserMomentum;
+    public double resistance = C.chaserResistance;
+    public double maxVelocity = C.maxVelocity;
 
     public Chaser(Coord start, char color)
     {

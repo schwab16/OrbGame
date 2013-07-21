@@ -16,9 +16,45 @@ public abstract class Tile {
         this.coord = coord;
     }
 
+    public abstract void collision(Chaser chaser, CollisionType type);
+    public abstract void update();
+    public abstract Image getImage(Level level);
+
+    public void basicTopCollision(Chaser chaser)
+    {
+        if (chaser.upwardVelocity < 0)
+            chaser.upwardVelocity = 0;
+        chaser.coord.y = coord.y - C.blocksSize + 1;
+        GameRunner.message += "TOP";
+    }
+
+    public void basicLeftCollision(Chaser chaser)
+    {
+        if (chaser.sideVelocity > 0)
+            chaser.sideVelocity = 0;
+        chaser.coord.x = coord.x - C.blocksSize + 1;
+        GameRunner.message += "LEFT";
+    }
+
+    public void basicRightCollision(Chaser chaser)
+    {
+        if (chaser.sideVelocity < 0)
+            chaser.sideVelocity = 0;
+        chaser.coord.x = coord.x + C.blocksSize - 1;
+        GameRunner.message += "RIGHT";
+    }
+
+    public void basicBottomCollision(Chaser chaser)
+    {
+        if (chaser.upwardVelocity > 0)
+            chaser.upwardVelocity = -chaser.upwardVelocity/2;
+        chaser.coord.y = coord.y + C.blocksSize - 1;
+        GameRunner.message += "BOTTOM";
+    }
+
     public static ArrayList<Tile> getAdjacentTiles(Tile[][] tiles, Coord c)
     {
-        ArrayList<Tile> a = new ArrayList<Tile>();
+        ArrayList<Tile> closeTiles = new ArrayList<Tile>();
         int x = (int)c.x/C.blocksSize;
         int y = (int)c.y/C.blocksSize;
 
@@ -28,25 +64,30 @@ public abstract class Tile {
             for (int offY = -adjArea; offY < adjArea+1; offY++)
                 if (offX >= 0 && offY >= 0 && offX < C.xBlocks && offY < C.yBlocks)
                     if (!(tiles[x+offX][y+offY] instanceof TileEmpty))
-                        a.add(tiles[x+offX][y+offY]);
+                        closeTiles.add(tiles[x+offX][y+offY]);
 
-        return a;
+        return closeTiles;
     }
-
-    public abstract void collision(Chaser chaser, CollisionType type);
-    public abstract void update();
-    public abstract Image getImage(Level level);
 
     public CollisionType checkForCollision(Chaser chaser)
     {
-        int cx = (int) chaser.coord.x;
-        int cy = (int) chaser.coord.y;
-        int tx = (int) coord.x;
-        int ty = (int) coord.y;
-        int s = C.blocksSize;
-        int b = C.blockBuffer;
+        int x = (int) chaser.coord.x - (int) coord.x;
+        int y = (int) coord.y - (int) chaser.coord.y;
 
-        boolean above=cy<ty-s&&cy>ty-s+b, even=cy>ty-s&&cy<ty+s, below=cy>ty+s;
+        if (Math.abs(y) < C.blockInsideRatio*C.blocksSize && Math.abs(x) < C.blockInsideRatio*C.blocksSize)
+            return CollisionType.IN;
+        if (Math.abs(y) < C.blocksSize && Math.abs(x) < C.blocksSize)
+        {
+            if (x>y && x>0)
+                return CollisionType.RIGHT;
+            if (x>y && !(x>0))
+                return CollisionType.LEFT;
+            if (!(x>y) && y>0)
+                return CollisionType.TOP;
+            if (!(x>y) && !(y>0))
+                return CollisionType.BOTTOM;
+        }
+
         return CollisionType.NONE;
     }
 
