@@ -37,6 +37,10 @@ public class Level {
                 {
                     case ' ':
                         tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID); break;
+                    case '!':
+                        tiles[x][y] = new TileFinish(new Coord(x*pix,y*pix),charID); break;
+
+
                     case '&':case '/':case '+': case '-':case '^':
                         tiles[x][y] = new TileBasic(new Coord(x*pix,y*pix),charID); break;
                     case '*':

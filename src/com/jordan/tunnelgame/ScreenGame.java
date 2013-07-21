@@ -66,11 +66,7 @@ public class ScreenGame extends Screen {
 
         time++;
 
-        int k = GameRunner.update(touchEvents,deltaTime,level);
-        if (k == C.fail)
-            state = GameState.Fail;
-        else if (k == C.finished)
-            state = GameState.Finish;
+        state = GameRunner.update(touchEvents,deltaTime,level);
 
         //anim.update(10);
         lastDeltaTime = deltaTime;
@@ -135,7 +131,7 @@ public class ScreenGame extends Screen {
     private void updateFinish(List<TouchEvent> touchEvents) {
         if (touchEvents.size() > 0 && touchEvents.get(0).type == TouchEvent.TOUCH_UP)
         {
-            level = levelPack.nextLevel();
+            /*level = levelPack.nextLevel();
             if (level == null)
             {
                 nullify();
@@ -146,7 +142,7 @@ public class ScreenGame extends Screen {
                 state = GameState.Ready;
             }
             //nullify();
-            //game.setScreen(new ScreenGame(game));
+            //game.setScreen(new ScreenGame(game));*/
         }
     }
     private void drawFinishUI() {

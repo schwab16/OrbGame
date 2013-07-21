@@ -11,9 +11,6 @@ public class C {
     public static int blocksSize = 80;
     public static double blockInsideRatio = .5;
 
-    //return codes for gamestate
-    public static int running = 17, fail = 49, finished = 53;
-
     //size of pause area
     public static int pauseArea = 40;
 

@@ -10,7 +10,7 @@ public class GameRunner {
 
     public static String message = "";
 
-    public static int update(List<TouchEvent> touchEvents, float deltaTime, Level level)
+    public static ScreenGame.GameState update(List<TouchEvent> touchEvents, float deltaTime, Level level)
     {
         message = "";
 
@@ -20,8 +20,27 @@ public class GameRunner {
         chasersFallDown(level.chasers, deltaTime);
         chasersMove(level.chasers, deltaTime);
         chasersCollide(level.chasers, level.tiles);
+        if (chasersFinish(level.chasers))
+            return ScreenGame.GameState.Finish;
+        else if (chasersDie(level.chasers))
+            return ScreenGame.GameState.Fail;
+        else
+            return ScreenGame.GameState.Running;
+    }
 
-        return C.running;
+    private static boolean chasersDie(ArrayList<Chaser> chasers) {
+        return false;
+    }
+
+    private static boolean chasersFinish(ArrayList<Chaser> chasers) {
+        boolean finishedYet = true;
+        for (Chaser c: chasers)
+        {
+            if (c.finished)
+                chasers.remove(c);
+            else finishedYet = false;
+        }
+        return finishedYet;
     }
 
     private static void chasersMove(ArrayList<Chaser> chasers, float deltaTime) {
@@ -45,8 +64,7 @@ public class GameRunner {
         }
     }
 
-    private static void chasersFallDown(ArrayList<Chaser> chasers, float deltaTime)
-    {
+    private static void chasersFallDown(ArrayList<Chaser> chasers, float deltaTime) {
         for (Chaser c: chasers)
             c.upwardVelocity += c.gravity * deltaTime;
     }

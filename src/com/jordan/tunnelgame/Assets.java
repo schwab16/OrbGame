@@ -9,7 +9,7 @@ public class Assets {
     public static Image splash;
 	public static Image packselect, levelselect, background;
 	public static Image iChaser, iOrb, iTile;
-    public static Image iBasicTile, iRockTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile, iWarpTile;
+    public static Image iBasicTile, iRockTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile, iWarpTile, iFinishTile;
 
 	//public static Sound click;
 	//public static Music theme;
@@ -35,6 +35,7 @@ public class Assets {
         iMetalTile = g.newImage("metaltile.png", ImageFormat.RGB565);
         iSnowTile = g.newImage("snowtile.png", ImageFormat.RGB565);
         iWarpTile = g.newImage("warp.png", ImageFormat.RGB565);
+        iFinishTile = g.newImage("finish.png", ImageFormat.RGB565);
 
     }
 
@@ -49,12 +50,12 @@ public class Assets {
         {
             case 1:
                 return "test1#" +
-                        "                " +
-                        "         2      " +
+                        " 0              " +
+                        "         2!     " +
                         "      A         " +
-                        "      2   * a   " +
+                        "          * a   " +
                         "      -++/+__&  " +
-                        "+0              " +
+                        "+1              " +
                         " &              " +
                         "///     a       " +
                         "/_-&^      0 *-^" +
@@ -88,6 +89,7 @@ public class Assets {
 
     TILE CHAR IDS
     ' ' : empty space
+    '!' : finish tile
 
     '+' : basic tile
     '-' : rock tile
@@ -106,7 +108,7 @@ public class Assets {
     'A' : default orb
 
     UNUSED SO FAR
-    !"$&'(),.:;<>=?@KLMNOPQRSTUVWXYZ[]`klmnopqrstuvwxyz{}~|
+    "$'(),.:;<>=?@KLMNOPQRSTUVWXYZ[]`klmnopqrstuvwxyz{}~|
 
     TO REMEMBER WHEN ADDING:
     1) add picture in assets folder
@@ -114,7 +116,8 @@ public class Assets {
     3) define char here
     4) make it recognised by the level class switch statement
     5) add a class that extends tile, implements methods
-    6) add functionality
-    7) add it to a level
+    6) getImage needs to return the correct image
+    7) add functionality (in the class, in GameRunner)
+    8) add it to a level
     */
 }
