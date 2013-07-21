@@ -26,6 +26,8 @@ public class Level {
         String peachyDandy = sc.next();
         String levelString = sc.next();
 
+        TileWarp.otherWarps = new ArrayList<TileWarp>();
+
         for (int y = 0; y < C.yBlocks; y++) {
             for (int x = 0; x < C.xBlocks; x++) {
                 char charID = levelString.charAt(x + C.xBlocks*y);
@@ -40,6 +42,13 @@ public class Level {
                         tiles[x][y] = new TileDeath(new Coord(x*pix,y*pix),charID); break;
                     case '_':
                         tiles[x][y] = new TileIce(new Coord(x*pix,y*pix),charID); break;
+
+
+                    case '0':case '1':case '2':case '3':case '4':case '5':case '6':case '7':case '8':case '9':
+                        tiles[x][y] = new TileWarp(new Coord(x*pix,y*pix),'0',charID);
+                        TileWarp.otherWarps.add((TileWarp)tiles[x][y]); break;
+
+
 
                     case 'a': tiles[x][y] = new TileEmpty(new Coord(x*pix,y*pix),charID);
                     chasers.add(new Chaser(new Coord(x*pix,y*pix),'a')); break;

@@ -9,19 +9,13 @@ public class TileEmpty extends Tile {
     }
 
     @Override
-    public void collision(Chaser chaser, CollisionType type) {
-
-    }
+    public void collision(Chaser chaser, CollisionType type) {}
 
     @Override
-    public void update() {
-
-    }
+    public void update() {}
 
     @Override
-    public void onTouch() {
-
-    }
+    public void onTouch() {}
 
     @Override
     public Image getImage(Level level) {

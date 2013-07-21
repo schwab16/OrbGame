@@ -7,21 +7,18 @@ import com.jordan.framework.Image;
 public class Assets {
 
     public static Image splash;
-	public static Image packselect, levelselect, background;// character, character2, character3, heliboy, heliboy2, heliboy3, heliboy4, heliboy5;
-	public static Image iChaser, iOrb, iTile, iBasicTile, iRockTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile;
+	public static Image packselect, levelselect, background;
+	public static Image iChaser, iOrb, iTile;
+    public static Image iBasicTile, iRockTile, iStoneTile, iFireTile, iIceTile, iMetalTile, iSnowTile, iWarpTile;
 
-    public static String[] packNames = {"test"};
-    public static String[][] levelStrings;
 	//public static Sound click;
 	//public static Music theme;
-    //public static Image guy, basicplat, guye, guys, guyl, guyr, movingplat, vanishplat,superplat;
 	
 	public static void loadSplash(Graphics g) {
         splash = g.newImage("splash.png", ImageFormat.RGB565);
 	}
 
     public static void load(Graphics g) {
-       // Assets.menu = g.newImage("menubg.png", Graphics.ImageFormat.RGB565);
 
         background = g.newImage("background.png", ImageFormat.RGB565);
         packselect = g.newImage("packselect.png", ImageFormat.RGB565);
@@ -37,6 +34,7 @@ public class Assets {
         iIceTile = g.newImage("icetile.png", ImageFormat.RGB565);
         iMetalTile = g.newImage("metaltile.png", ImageFormat.RGB565);
         iSnowTile = g.newImage("snowtile.png", ImageFormat.RGB565);
+        iWarpTile = g.newImage("warp.png", ImageFormat.RGB565);
 
     }
 
@@ -101,8 +99,22 @@ public class Assets {
 
     '_' : ice tile
 
+    '0123456789' : warp tile (their id is as they appear, they target the # representing them )
+
     CHASER/ORB IDS 'a-j' 'A-J'
     'a' : default chaser
     'A' : default orb
-     */
+
+    UNUSED SO FAR
+    !"$&'(),.:;<>=?@KLMNOPQRSTUVWXYZ[]`klmnopqrstuvwxyz{}~|
+
+    TO REMEMBER WHEN ADDING:
+    1) add picture in assets folder
+    2) load picture in assets class
+    3) define char here
+    4) make it recognised by the level class switch statement
+    5) add a class that extends tile, implements methods
+    6) add functionality
+    7) add it to a level
+    */
 }
