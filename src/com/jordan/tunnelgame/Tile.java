@@ -12,6 +12,7 @@ public abstract class Tile {
     public Tile(Coord coord, char id)
     {
         this.coord = coord;
+        this.id = id;
     }
 
     public abstract void collision(Chaser chaser, CollisionType type);

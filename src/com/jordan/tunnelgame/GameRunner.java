@@ -12,14 +12,14 @@ public class GameRunner {
 
     public static int update(List<TouchEvent> touchEvents, float deltaTime, Level level)
     {
-        message = "";
+       // message = "";
 
         if (touchEvents.size() > 0)
             orbsByTouch(touchEvents,level.orbs);
         chasersFollowOrbs(level.chasers, level.orbs, deltaTime);
         chasersFallDown(level.chasers, deltaTime);
-        chasersCollide(level.chasers, level.tiles);
         chasersMove(level.chasers, deltaTime);
+        chasersCollide(level.chasers, level.tiles);
 
         return C.running;
     }

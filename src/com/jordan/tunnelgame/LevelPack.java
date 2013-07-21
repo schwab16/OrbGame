@@ -35,5 +35,4 @@ public class LevelPack {
         return getLevel(currentLevel++);
     }
 
-
 }
