@@ -14,11 +14,17 @@ public class Chaser {
     public double momentum = C.chaserMomentum;
     public double resistance = C.chaserResistance;
     public double maxVelocity = C.maxVelocity;
+    public boolean readyToWarp[] = new boolean[10];
 
     public Chaser(Coord start, char color)
     {
         this.color = color;
         this.coord = start;
+
+        for(int k = 0; k < 10; k++)
+        {
+            readyToWarp[k] = true;
+        }
     }
 
     public Image getImage()

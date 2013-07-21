@@ -23,9 +23,9 @@ public class GameDrawer {
 
         for (Chaser c: level.chasers)
         {
-            Image i = Assets.iChaser;
-            int x = (int)c.coord.x;// - i.getWidth()/2;
-            int y = (int)c.coord.y;// - i.getHeight()/2;
+            Image i = c.getImage();
+            int x = (int)c.coord.x;
+            int y = (int)c.coord.y;
             g.drawImage(i, x, y);
         }
 

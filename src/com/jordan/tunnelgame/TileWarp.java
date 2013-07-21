@@ -6,26 +6,28 @@ import java.util.ArrayList;
 
 public class TileWarp extends Tile {
 
+    public static int currentID;
     public static ArrayList<TileWarp> otherWarps;
+    public int myID;
     public int targetID;
-    public boolean readyToWarp = true;
 
-    public TileWarp(Coord coord, char id, char targetID) {
+    public TileWarp(Coord coord, char id, int myID, char targetID) {
         super(coord, id);
         this.targetID = targetID - '0';
+        this.myID = myID;
     }
 
     @Override
     public void collision(Chaser chaser, CollisionType type) {
-        if (type == CollisionType.IN && readyToWarp)
+        if (type == CollisionType.IN && chaser.readyToWarp[myID])
         {
             chaser.coord.x = otherWarps.get(targetID).coord.x;
             chaser.coord.y = otherWarps.get(targetID).coord.y;
-            otherWarps.get(targetID).readyToWarp = false;
+            chaser.readyToWarp[targetID] = false;
         }
         else if (type == CollisionType.NONE)
         {
-            readyToWarp = true;
+            chaser.readyToWarp[myID] = true;
         }
     }
 

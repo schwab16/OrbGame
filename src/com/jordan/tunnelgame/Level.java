@@ -27,6 +27,7 @@ public class Level {
         String levelString = sc.next();
 
         TileWarp.otherWarps = new ArrayList<TileWarp>();
+        TileWarp.currentID = 0;
 
         for (int y = 0; y < C.yBlocks; y++) {
             for (int x = 0; x < C.xBlocks; x++) {
@@ -45,7 +46,7 @@ public class Level {
 
 
                     case '0':case '1':case '2':case '3':case '4':case '5':case '6':case '7':case '8':case '9':
-                        tiles[x][y] = new TileWarp(new Coord(x*pix,y*pix),'0',charID);
+                        tiles[x][y] = new TileWarp(new Coord(x*pix,y*pix),'0',TileWarp.currentID++,charID);
                         TileWarp.otherWarps.add((TileWarp)tiles[x][y]); break;
 
 
