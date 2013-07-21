@@ -24,8 +24,6 @@ public class GameRunner {
         chasersCollide(level.chasers, level.tiles);
         chasersMove(level.chasers, deltaTime);
 
-        message += (int)level.chasers.get(0).coord.x + " " + (int)level.chasers.get(0).coord.y;
-
         return C.running;
     }
 
