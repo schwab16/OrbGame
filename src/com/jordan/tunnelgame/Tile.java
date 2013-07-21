@@ -55,14 +55,16 @@ public abstract class Tile {
     public static ArrayList<Tile> getAdjacentTiles(Tile[][] tiles, Coord c)
     {
         ArrayList<Tile> closeTiles = new ArrayList<Tile>();
-        int x = (int)c.x/C.blocksSize;
-        int y = (int)c.y/C.blocksSize;
+        int x = (int)c.x / C.blocksSize;
+        int y = (int)c.y / C.blocksSize;
 
-        int adjArea = C.adjacentArea;
+        GameRunner.message += "xs " + x + " " + y;
 
-        for (int offX = -adjArea; offX < adjArea+1; offX++)
-            for (int offY = -adjArea; offY < adjArea+1; offY++)
-                if (offX >= 0 && offY >= 0 && offX < C.xBlocks && offY < C.yBlocks)
+        int adjArea = 2;
+
+        for (int offX = 0-adjArea; offX < adjArea+1; offX++)
+            for (int offY = 0-adjArea; offY < adjArea+1; offY++)
+                if (x+offX >= 0 && y+offY >= 0 && x+offX < C.xBlocks && y+offY < C.yBlocks)
                     if (!(tiles[x+offX][y+offY] instanceof TileEmpty))
                         closeTiles.add(tiles[x+offX][y+offY]);
 
@@ -78,20 +80,22 @@ public abstract class Tile {
             return CollisionType.IN;
         if (Math.abs(y) < C.blocksSize && Math.abs(x) < C.blocksSize)
         {
-            if (x>y && x>0)
-                return CollisionType.RIGHT;
-            if (x>y && !(x>0))
-                return CollisionType.LEFT;
-            if (!(x>y) && y>0)
-                return CollisionType.TOP;
-            if (!(x>y) && !(y>0))
-                return CollisionType.BOTTOM;
+            if (Math.abs(x) > Math.abs(y))
+            {
+                if (x>0) return CollisionType.RIGHT;
+                else return CollisionType.LEFT;
+            }
+            else
+            {
+                if (y>0) return CollisionType.TOP;
+                else return CollisionType.BOTTOM;
+            }
         }
 
         return CollisionType.NONE;
     }
 
     public enum CollisionType {
-        TOP, LEFT, RIGHT, BOTTOM, IN, NONE;
+        TOP, LEFT, RIGHT, BOTTOM, IN, NONE
     }
 }

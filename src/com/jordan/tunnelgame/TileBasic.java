@@ -21,7 +21,7 @@ public class TileBasic extends Tile {
                 break;
             case BOTTOM: basicBottomCollision(chaser);
                 break;
-            case IN: GameRunner.message += "INININ";
+            case IN:
                 break;
             case NONE:
                 break;

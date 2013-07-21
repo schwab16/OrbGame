@@ -29,7 +29,7 @@ public class C {
 
 
     //how far the chaser looks away for collisions
-    public static int adjacentArea = 2;
+    public static int adjacentArea = 1;
 
 
 }

@@ -40,14 +40,13 @@ public class GameRunner {
     private static void chasersCollide(ArrayList<Chaser> chasers, Tile[][] tiles) {
         for (Chaser c: chasers)
         {
-            try{
-                for (Tile t: Tile.getAdjacentTiles(tiles,c.coord))
-                {
-                    Tile.CollisionType type = t.checkForCollision(c);
-                    if (type != Tile.CollisionType.NONE)
-                        t.collision(c,type);
-                }
-            } catch(Exception e) {}
+            ArrayList<Tile> ti = Tile.getAdjacentTiles(tiles,c.coord);
+            for (int k = 0; k < ti.size(); k++)
+            {
+                Tile t = ti.get(k);
+                Tile.CollisionType type = t.checkForCollision(c);
+                t.collision(c,type);
+            }
         }
     }
 

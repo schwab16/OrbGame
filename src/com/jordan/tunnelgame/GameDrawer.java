@@ -5,9 +5,6 @@ import android.graphics.Color;
 import com.jordan.framework.Graphics;
 import com.jordan.framework.Image;
 
-/**
- * Created by Owner on 7/11/13.
- */
 public class GameDrawer {
 
     public static void draw(Graphics g, Level level)

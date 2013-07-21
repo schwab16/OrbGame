@@ -10,7 +10,7 @@ public class Level {
 
     public ArrayList<Chaser> chasers = new ArrayList<Chaser>();
     public ArrayList<Orb> orbs = new ArrayList<Orb>();
-    public Tile[][] tiles = new Tile[32][20];
+    public Tile[][] tiles = new Tile[C.xBlocks][C.yBlocks];
 
     public int packID;
     public int levelNum;
