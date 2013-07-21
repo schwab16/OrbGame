@@ -23,7 +23,7 @@ public class TileWarp extends Tile {
             chaser.coord.y = otherWarps.get(targetID).coord.y;
             otherWarps.get(targetID).readyToWarp = false;
         }
-        else if (type != CollisionType.NONE && type != CollisionType.IN)
+        else if (type == CollisionType.NONE)
         {
             readyToWarp = true;
         }
