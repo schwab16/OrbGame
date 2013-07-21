@@ -25,7 +25,7 @@ public abstract class Tile {
         if (chaser.upwardVelocity < 0)
             chaser.upwardVelocity = 0;
         chaser.coord.y = coord.y - C.blocksSize + 1;
-        GameRunner.message += "TOP";
+
     }
 
     public void basicLeftCollision(Chaser chaser)
@@ -33,7 +33,6 @@ public abstract class Tile {
         if (chaser.sideVelocity > 0)
             chaser.sideVelocity = 0;
         chaser.coord.x = coord.x - C.blocksSize + 1;
-        GameRunner.message += "LEFT";
     }
 
     public void basicRightCollision(Chaser chaser)
@@ -41,7 +40,6 @@ public abstract class Tile {
         if (chaser.sideVelocity < 0)
             chaser.sideVelocity = 0;
         chaser.coord.x = coord.x + C.blocksSize - 1;
-        GameRunner.message += "RIGHT";
     }
 
     public void basicBottomCollision(Chaser chaser)
@@ -49,7 +47,6 @@ public abstract class Tile {
         if (chaser.upwardVelocity > 0)
             chaser.upwardVelocity = -chaser.upwardVelocity/2;
         chaser.coord.y = coord.y + C.blocksSize - 1;
-        GameRunner.message += "BOTTOM";
     }
 
     public static ArrayList<Tile> getAdjacentTiles(Tile[][] tiles, Coord c)
@@ -57,8 +54,6 @@ public abstract class Tile {
         ArrayList<Tile> closeTiles = new ArrayList<Tile>();
         int x = (int)c.x / C.blocksSize;
         int y = (int)c.y / C.blocksSize;
-
-        GameRunner.message += "xs " + x + " " + y;
 
         int adjArea = 2;
 

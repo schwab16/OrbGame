@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b212e8-d19b-4fe8-8a11-4a18ddaf91b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/orb.png" afterPath="$PROJECT_DIR$/assets/orb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" afterPath="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java" afterPath="$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RobotGameCopy1.iws" />
@@ -100,16 +101,16 @@
       <file leaf-file-name="Tile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="37" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1785">
+            <state line="45" column="5" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animation.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Animation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Animation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15814696" vertical-offset="139" max-vertical-offset="1224">
+            <state line="27" column="5" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -151,10 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameRunner.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameRunner.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="13" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2142">
+            <state line="24" column="46" selection-start="689" selection-end="689" vertical-scroll-proportion="0.543131" vertical-offset="0" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -196,15 +197,15 @@
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/TileBasic.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Assets.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java" />
-        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Level.java" />
         <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java" />
+        <option value="$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="140" />
+    <option name="x" value="544" />
+    <option name="y" value="69" />
     <option name="width" value="1234" />
     <option name="height" value="965" />
   </component>
@@ -530,11 +531,15 @@
       <created>1374381990117</created>
       <updated>1374381990117</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="orb diamond">
+      <created>1374382138658</created>
+      <updated>1374382138658</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="140" width="1234" height="965" extended-state="0" />
+    <frame x="544" y="69" width="1234" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -605,7 +610,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="left collision can smd" />
+    <option name="LAST_COMMIT_MESSAGE" value="orb diamond" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -628,6 +633,7 @@
     <MESSAGE value="collisions" />
     <MESSAGE value="collisions actually work now" />
     <MESSAGE value="left collision can smd" />
+    <MESSAGE value="orb diamond" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -694,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="68" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -722,16 +721,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Animation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1785">
+        <state line="27" column="5" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Animation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/Tile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.15814696" vertical-offset="139" max-vertical-offset="1224">
+        <state line="45" column="5" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jordan/tunnelgame/GameRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="689" selection-end="689" vertical-scroll-proportion="0.543131" vertical-offset="0" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
